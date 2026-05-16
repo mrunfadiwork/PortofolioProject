@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS payment_detail (
+      "id" TEXT,
+      "payment_method" TEXT
+);
+INSERT INTO payment_detail VALUES
+('PM001','Digital Wallet'),
+('PM002','Virtual Account'),
+('PM003','QRIS Payment'),
+('PM004','Over-the-Counter Payment'),
+('PM005','Credit Card Payment'),
+('PM006','PayLater (BNPL)'),
+('PM007','Direct Debit Payment'),
+('PM008','Cash on Delivery (COD)'),
+('PM009','Mobile Banking Payment'),
+('PM010','Interbank Transfer');
